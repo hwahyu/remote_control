@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20294801E702BE60014D07B /* ControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F202947F1E702BE60014D07B /* ControllerModel.swift */; };
+		F26DBED71EB8D81C00127415 /* CommandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26DBED61EB8D81C00127415 /* CommandTableViewController.swift */; };
+		F27D362E1E9912F9006ACEF6 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D362D1E9912F9006ACEF6 /* ScanTableViewController.swift */; };
+		F2981CFE1E5AC71E00F80974 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2981CFD1E5AC71E00F80974 /* WebViewController.swift */; };
+		F2B2EAE51E6FB3DB00B2F5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B2EAE41E6FB3DB00B2F5E1 /* Main.storyboard */; };
+		F2BF3A201E49D4BD007A4F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF3A1F1E49D4BD007A4F6A /* AppDelegate.swift */; };
+		F2BF3A271E49D4BD007A4F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BF3A261E49D4BD007A4F6A /* Assets.xcassets */; };
+		F2BF3A2A1E49D4BD007A4F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BF3A281E49D4BD007A4F6A /* LaunchScreen.storyboard */; };
+		F2BF3A351E49D4BD007A4F6A /* Bluetooth_joystickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF3A341E49D4BD007A4F6A /* Bluetooth_joystickTests.swift */; };
+		F2BF3A401E49D4BD007A4F6A /* Bluetooth_joystickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF3A3F1E49D4BD007A4F6A /* Bluetooth_joystickUITests.swift */; };
+		F2CB46071E59A18F00A8D167 /* JoystickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB46061E59A18F00A8D167 /* JoystickViewController.swift */; };
+		F2D25DFD1E6BEF3300B9B869 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D25DFC1E6BEF3300B9B869 /* MainViewController.swift */; };
+		F2D25E021E6C0C1000B9B869 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D25E011E6C0C1000B9B869 /* CoreBluetooth.framework */; };
+		F2E114081E9F7143002F4FF9 /* joystickController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E114071E9F7143002F4FF9 /* joystickController.swift */; };
+		F2EFD3441EA9F17600CBF625 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2EFD3431EA9F17600CBF625 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2BF3A311E49D4BD007A4F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BF3A141E49D4BC007A4F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BF3A1B1E49D4BD007A4F6A;
+			remoteInfo = Bluetooth_joystick;
+		};
+		F2BF3A3C1E49D4BD007A4F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BF3A141E49D4BC007A4F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BF3A1B1E49D4BD007A4F6A;
+			remoteInfo = Bluetooth_joystick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F202947F1E702BE60014D07B /* ControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerModel.swift; sourceTree = "<group>"; };
+		F26DBED61EB8D81C00127415 /* CommandTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandTableViewController.swift; sourceTree = "<group>"; };
+		F27D362D1E9912F9006ACEF6 /* ScanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		F2981CFD1E5AC71E00F80974 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F2B2EAE41E6FB3DB00B2F5E1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = /Users/hendrawahyu/Desktop/Xcode/remote_control/Bluetooth_joystick/Bluetooth_joystick/Main.storyboard; sourceTree = "<absolute>"; };
+		F2BF3A1C1E49D4BD007A4F6A /* Bluetooth_joystick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluetooth_joystick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BF3A1F1E49D4BD007A4F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BF3A261E49D4BD007A4F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2BF3A291E49D4BD007A4F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2BF3A2B1E49D4BD007A4F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BF3A301E49D4BD007A4F6A /* Bluetooth_joystickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bluetooth_joystickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BF3A341E49D4BD007A4F6A /* Bluetooth_joystickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_joystickTests.swift; sourceTree = "<group>"; };
+		F2BF3A361E49D4BD007A4F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BF3A3B1E49D4BD007A4F6A /* Bluetooth_joystickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bluetooth_joystickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BF3A3F1E49D4BD007A4F6A /* Bluetooth_joystickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_joystickUITests.swift; sourceTree = "<group>"; };
+		F2BF3A411E49D4BD007A4F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CB46061E59A18F00A8D167 /* JoystickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoystickViewController.swift; sourceTree = "<group>"; };
+		F2D25DFC1E6BEF3300B9B869 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		F2D25E011E6C0C1000B9B869 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F2E114071E9F7143002F4FF9 /* joystickController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = joystickController.swift; sourceTree = "<group>"; };
+		F2EFD3431EA9F17600CBF625 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BF3A191E49D4BD007A4F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EFD3441EA9F17600CBF625 /* AVFoundation.framework in Frameworks */,
+				F2D25E021E6C0C1000B9B869 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BF3A2D1E49D4BD007A4F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BF3A381E49D4BD007A4F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F205F15E1EBE5C0100DFF0DE /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				F2D25DFC1E6BEF3300B9B869 /* MainViewController.swift */,
+				F27D362D1E9912F9006ACEF6 /* ScanTableViewController.swift */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		F2602FD51E6B1DF5004C6D1C /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				F2CB46061E59A18F00A8D167 /* JoystickViewController.swift */,
+				F2E114071E9F7143002F4FF9 /* joystickController.swift */,
+			);
+			name = Joystick;
+			sourceTree = "<group>";
+		};
+		F2644A721E73CCE400FF8F30 /* Controller Model */ = {
+			isa = PBXGroup;
+			children = (
+				F26DBED61EB8D81C00127415 /* CommandTableViewController.swift */,
+				F202947F1E702BE60014D07B /* ControllerModel.swift */,
+			);
+			name = "Controller Model";
+			sourceTree = "<group>";
+		};
+		F2644A731E7421E200FF8F30 /* Raspberry */ = {
+			isa = PBXGroup;
+			children = (
+				F2981CFD1E5AC71E00F80974 /* WebViewController.swift */,
+			);
+			name = Raspberry;
+			sourceTree = "<group>";
+		};
+		F2BF3A131E49D4BC007A4F6A = {
+			isa = PBXGroup;
+			children = (
+				F2BF3A1E1E49D4BD007A4F6A /* RCControl */,
+				F2BF3A331E49D4BD007A4F6A /* RCControl_Test */,
+				F2BF3A3E1E49D4BD007A4F6A /* RCControl_UITests */,
+				F2BF3A1D1E49D4BD007A4F6A /* Products */,
+				F2D25E001E6C0C1000B9B869 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BF3A1D1E49D4BD007A4F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF3A1C1E49D4BD007A4F6A /* Bluetooth_joystick.app */,
+				F2BF3A301E49D4BD007A4F6A /* Bluetooth_joystickTests.xctest */,
+				F2BF3A3B1E49D4BD007A4F6A /* Bluetooth_joystickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BF3A1E1E49D4BD007A4F6A /* RCControl */ = {
+			isa = PBXGroup;
+			children = (
+				F2CB46031E596A6F00A8D167 /* Supporting Files */,
+				F2644A721E73CCE400FF8F30 /* Controller Model */,
+				F2644A731E7421E200FF8F30 /* Raspberry */,
+				F2602FD51E6B1DF5004C6D1C /* Joystick */,
+				F205F15E1EBE5C0100DFF0DE /* Bluetooth */,
+				F2B2EAE41E6FB3DB00B2F5E1 /* Main.storyboard */,
+				F2BF3A281E49D4BD007A4F6A /* LaunchScreen.storyboard */,
+			);
+			name = RCControl;
+			path = Bluetooth_joystick;
+			sourceTree = "<group>";
+		};
+		F2BF3A331E49D4BD007A4F6A /* RCControl_Test */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF3A341E49D4BD007A4F6A /* Bluetooth_joystickTests.swift */,
+				F2BF3A361E49D4BD007A4F6A /* Info.plist */,
+			);
+			name = RCControl_Test;
+			path = Bluetooth_joystickTests;
+			sourceTree = "<group>";
+		};
+		F2BF3A3E1E49D4BD007A4F6A /* RCControl_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF3A3F1E49D4BD007A4F6A /* Bluetooth_joystickUITests.swift */,
+				F2BF3A411E49D4BD007A4F6A /* Info.plist */,
+			);
+			name = RCControl_UITests;
+			path = Bluetooth_joystickUITests;
+			sourceTree = "<group>";
+		};
+		F2CB46031E596A6F00A8D167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF3A261E49D4BD007A4F6A /* Assets.xcassets */,
+				F2BF3A1F1E49D4BD007A4F6A /* AppDelegate.swift */,
+				F2BF3A2B1E49D4BD007A4F6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D25E001E6C0C1000B9B869 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2EFD3431EA9F17600CBF625 /* AVFoundation.framework */,
+				F2D25E011E6C0C1000B9B869 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BF3A1B1E49D4BD007A4F6A /* Bluetooth_joystick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BF3A441E49D4BD007A4F6A /* Build configuration list for PBXNativeTarget "Bluetooth_joystick" */;
+			buildPhases = (
+				F2BF3A181E49D4BD007A4F6A /* Sources */,
+				F2BF3A191E49D4BD007A4F6A /* Frameworks */,
+				F2BF3A1A1E49D4BD007A4F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetooth_joystick;
+			productName = Bluetooth_joystick;
+			productReference = F2BF3A1C1E49D4BD007A4F6A /* Bluetooth_joystick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2BF3A2F1E49D4BD007A4F6A /* Bluetooth_joystickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BF3A471E49D4BD007A4F6A /* Build configuration list for PBXNativeTarget "Bluetooth_joystickTests" */;
+			buildPhases = (
+				F2BF3A2C1E49D4BD007A4F6A /* Sources */,
+				F2BF3A2D1E49D4BD007A4F6A /* Frameworks */,
+				F2BF3A2E1E49D4BD007A4F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BF3A321E49D4BD007A4F6A /* PBXTargetDependency */,
+			);
+			name = Bluetooth_joystickTests;
+			productName = Bluetooth_joystickTests;
+			productReference = F2BF3A301E49D4BD007A4F6A /* Bluetooth_joystickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2BF3A3A1E49D4BD007A4F6A /* Bluetooth_joystickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BF3A4A1E49D4BD007A4F6A /* Build configuration list for PBXNativeTarget "Bluetooth_joystickUITests" */;
+			buildPhases = (
+				F2BF3A371E49D4BD007A4F6A /* Sources */,
+				F2BF3A381E49D4BD007A4F6A /* Frameworks */,
+				F2BF3A391E49D4BD007A4F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BF3A3D1E49D4BD007A4F6A /* PBXTargetDependency */,
+			);
+			name = Bluetooth_joystickUITests;
+			productName = Bluetooth_joystickUITests;
+			productReference = F2BF3A3B1E49D4BD007A4F6A /* Bluetooth_joystickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BF3A141E49D4BC007A4F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hendra Wahyu";
+				TargetAttributes = {
+					F2BF3A1B1E49D4BD007A4F6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P9JR629SR6;
+						ProvisioningStyle = Automatic;
+					};
+					F2BF3A2F1E49D4BD007A4F6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2BF3A1B1E49D4BD007A4F6A;
+					};
+					F2BF3A3A1E49D4BD007A4F6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2BF3A1B1E49D4BD007A4F6A;
+					};
+				};
+			};
+			buildConfigurationList = F2BF3A171E49D4BC007A4F6A /* Build configuration list for PBXProject "Bluetooth_joystick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BF3A131E49D4BC007A4F6A;
+			productRefGroup = F2BF3A1D1E49D4BD007A4F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BF3A1B1E49D4BD007A4F6A /* Bluetooth_joystick */,
+				F2BF3A2F1E49D4BD007A4F6A /* Bluetooth_joystickTests */,
+				F2BF3A3A1E49D4BD007A4F6A /* Bluetooth_joystickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BF3A1A1E49D4BD007A4F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BF3A2A1E49D4BD007A4F6A /* LaunchScreen.storyboard in Resources */,
+				F2B2EAE51E6FB3DB00B2F5E1 /* Main.storyboard in Resources */,
+				F2BF3A271E49D4BD007A4F6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BF3A2E1E49D4BD007A4F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BF3A391E49D4BD007A4F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BF3A181E49D4BD007A4F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2981CFE1E5AC71E00F80974 /* WebViewController.swift in Sources */,
+				F20294801E702BE60014D07B /* ControllerModel.swift in Sources */,
+				F26DBED71EB8D81C00127415 /* CommandTableViewController.swift in Sources */,
+				F2BF3A201E49D4BD007A4F6A /* AppDelegate.swift in Sources */,
+				F27D362E1E9912F9006ACEF6 /* ScanTableViewController.swift in Sources */,
+				F2D25DFD1E6BEF3300B9B869 /* MainViewController.swift in Sources */,
+				F2CB46071E59A18F00A8D167 /* JoystickViewController.swift in Sources */,
+				F2E114081E9F7143002F4FF9 /* joystickController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BF3A2C1E49D4BD007A4F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BF3A351E49D4BD007A4F6A /* Bluetooth_joystickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BF3A371E49D4BD007A4F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BF3A401E49D4BD007A4F6A /* Bluetooth_joystickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2BF3A321E49D4BD007A4F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BF3A1B1E49D4BD007A4F6A /* Bluetooth_joystick */;
+			targetProxy = F2BF3A311E49D4BD007A4F6A /* PBXContainerItemProxy */;
+		};
+		F2BF3A3D1E49D4BD007A4F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BF3A1B1E49D4BD007A4F6A /* Bluetooth_joystick */;
+			targetProxy = F2BF3A3C1E49D4BD007A4F6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2BF3A281E49D4BD007A4F6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BF3A291E49D4BD007A4F6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BF3A421E49D4BD007A4F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BF3A431E49D4BD007A4F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BF3A451E49D4BD007A4F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P9JR629SR6;
+				INFOPLIST_FILE = Bluetooth_joystick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hendra-Wahyu.Bluetooth-joystick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BF3A461E49D4BD007A4F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P9JR629SR6;
+				INFOPLIST_FILE = Bluetooth_joystick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hendra-Wahyu.Bluetooth-joystick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2BF3A481E49D4BD007A4F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bluetooth_joystickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hendra-Wahyu.Bluetooth-joystickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth_joystick.app/Bluetooth_joystick";
+			};
+			name = Debug;
+		};
+		F2BF3A491E49D4BD007A4F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bluetooth_joystickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hendra-Wahyu.Bluetooth-joystickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth_joystick.app/Bluetooth_joystick";
+			};
+			name = Release;
+		};
+		F2BF3A4B1E49D4BD007A4F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Bluetooth_joystickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hendra-Wahyu.Bluetooth-joystickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bluetooth_joystick;
+			};
+			name = Debug;
+		};
+		F2BF3A4C1E49D4BD007A4F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Bluetooth_joystickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hendra-Wahyu.Bluetooth-joystickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bluetooth_joystick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BF3A171E49D4BC007A4F6A /* Build configuration list for PBXProject "Bluetooth_joystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BF3A421E49D4BD007A4F6A /* Debug */,
+				F2BF3A431E49D4BD007A4F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BF3A441E49D4BD007A4F6A /* Build configuration list for PBXNativeTarget "Bluetooth_joystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BF3A451E49D4BD007A4F6A /* Debug */,
+				F2BF3A461E49D4BD007A4F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BF3A471E49D4BD007A4F6A /* Build configuration list for PBXNativeTarget "Bluetooth_joystickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BF3A481E49D4BD007A4F6A /* Debug */,
+				F2BF3A491E49D4BD007A4F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BF3A4A1E49D4BD007A4F6A /* Build configuration list for PBXNativeTarget "Bluetooth_joystickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BF3A4B1E49D4BD007A4F6A /* Debug */,
+				F2BF3A4C1E49D4BD007A4F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2BF3A141E49D4BC007A4F6A /* Project object */;
+}
